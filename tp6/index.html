@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TP 6 Manuel Bahamonde</title>
+
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <style>
+            #age-input {
+                width: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <form style="width: 400px;">
+            <div class="form-part">
+                <label class="title">Información personal:</label>
+                <div>
+                    <label>Nombre:</label>
+                    <input id="name" type="text" />
+                </div>
+                <div>
+                    <label>Apellido:</label>
+                    <input id="surname" type="text" />
+                </div>
+                <div>
+                    <label>Edad:</label>
+                    <input id="age-input" type="text"/>
+                </div>
+                <div>
+                    <div>
+                        <input type="radio" id="gender1" name="gender" value="male" />
+                        <label for="gender1">Masculino</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="gender3" name="gender" value="female" />
+                        <label for="gender2">Femenino</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="gender3" name="gender" value="other" />
+                        <label for="gender3">Otro</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-part">
+                <label class="title">Información adicional:</label>
+                <div>
+                    <label>Empresa:</label>
+                    <input type="text" />
+                </div>
+            </div>
+            <div class="footer">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <script src="./js/jquery.js"></script>
+    </body>
+</html>
